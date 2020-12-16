@@ -35,11 +35,6 @@ Array.prototype.transpose = function(){
 
 
 
-Array.prototype.myEach = function(callback){
-    this.forEach((el) => {
-        callback(el);
-        }
-}
 
 [1, 2, 3]
 [4, 5, 6]
